@@ -1,2 +1,0 @@
-# portifolio
- My portfolio application
