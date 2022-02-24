@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(#001123, #002751);
+  min-height: 100vh;
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+ul {
+  display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 20px;    
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffff;
+  border-radius: 20px;    
+}
+
+ul li a:hover, .active {
+  background: #ffff;
+  color: #002751;  
+  }
